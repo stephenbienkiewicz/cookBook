@@ -1,0 +1,38 @@
+body {
+	background-image: url(../images/spices_cut.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: relative;
+}
+
+input[type="text"] {
+	display: inline-block;
+	position: absolute;
+	width: 340px;
+	padding: 5px;
+	top: 50%;
+	left: 30%;
+}
+
+input[type="submit"] {
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	padding: 5px;
+	top: 50%;
+	left: 53%;
+}
+
+.name {
+	font-size: 40px;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	color: orange;
+}
+
+.logo {
+	position: absolute;
+	left: 40%;
+
+}
