@@ -1,0 +1,53 @@
+body {
+	background-image: url(../images/spices_cut.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: relative;
+}
+
+.name {
+	display: inline-block;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-left: 30px;
+	color: orange;
+}
+
+.contact {
+	margin: 100px auto;
+	width: 600px;
+	height: 100%;
+	background-color: rgba(256,256,256,0.7);
+
+}
+
+input {
+	display: block;
+	width: 340px;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+textarea {
+	display: block;
+	width: 340px;
+	padding: 10px;
+	margin: 20px auto;
+	font: 13.3333px Arial;
+	line-height: 17px;
+}
+
+input[type="textarea"] {
+	height: 200px;
+	vertical-align: top;
+}
+
+input[type="submit"] {
+	width: 100px;
+}
+
+.formtext {
+	margin: 20px auto;
+	font-size: 20px;
+	max-width: 350px;
+}

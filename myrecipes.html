@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The CookBook</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="css/myrecipes.css">
+	</head>
+	<body>
+
+		<div class="header">
+
+			<div class="name"><span style="color: black">The</span> Online CookBook</div>
+
+			<nav class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="myrecipes.html">My recipes</a></li>
+					<li><a href="#">Featured Recipe</a></li>
+					<li><a href="#">Tutorials</a></li>
+					<li><a href="inquiries.html">Inquiries</a></li>
+				</ul>
+			</nav>
+		
+		</div>
+
+		
+		<div class="addbutton"><span style="font-weight: bolder">+</span> Add a recipe</div>
+
+		
+		<div class="recipes">
+		
+			<div class="addrecipe">
+		
+				<div class="text">
+					Enter recipe name:
+				</div>
+				
+				<div class="recipename">
+					<input type="text" name="nameofrecipe" id="nameofrecipe" placeHolder="Enter the recipe name">
+					<input type="submit" id="savename" value="Save">
+				</div>
+
+				<div class="text">
+					Add ingredients:
+				</div>
+				
+				<div class="ingredients">
+					<input type="text" name="ingredient" id="ingredient" placeHolder="Add ingredient">
+					<input type="submit" id="save" value="Save">
+				</div>
+
+				<div class="text">
+					Add cooking instructions:
+				</div>
+				
+				<div class="cookinginst">
+					<input type="text" name="cookinginst" id="cooking" placeHolder="Add cooking instructions">
+					<input type="submit" id="savecook" value="Save">
+				</div>
+
+				<div class="donebutton">Done</div>
+
+			</div>
+
+			<div class="rendered">
+				<div class="namerec"></div>
+				<p class="ing lines"><span style="font-weight: bold">Ingredients:</span></p>
+				<p class="cook lines"><span style="font-weight: bold">Cooking Instructions:</span></p>
+			</div>
+
+		</div>
+
+		<div class="myrecipes">
+
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="js/myrecipe.js"></script>
+	</body>
+</html>
