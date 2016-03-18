@@ -1,31 +1,3 @@
-.header {
-	margin-top: 2%;
-	display: 100%;
-	width: 100%;
-	height: 100%;
-	background-color: white;
+.navbar-link {
+	padding: 20px;
 }
-
-.navbar {	
-	display: inline-block;
-	max-width: 40%;
-	margin-left: 33%;
-	background-color: white;
-}
-
-ul li {
-	display: inline-block;
-	list-style: none;
-	font-size: 23px;
-	padding: 5px 10px;
-}
-
-ul li a {
-	text-decoration: none;
-	color: orange;
-}
-
-ul li a:hover {
-	text-decoration: underline;
-}
-
