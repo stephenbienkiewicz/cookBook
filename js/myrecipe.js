@@ -32,6 +32,16 @@ $(document).ready(function(){
 			$(".addbutton").show();
 		});
 
+		$("#nameofrecipe").val('');
+		$("#ingredient").val('');
+		$("#cooking").val('');
+		$(".namerec").empty('');
+		$(".ing").empty('');
+		$(".cook").empty('');
+		$(".ing").add('<span style="font-weight: bold">Ingredients:</span>').appendTo(".ing");
+		$(".cook").add('<span style="font-weight: bold">Cooking Instructions:</span>').appendTo(".cook");
+		$(".ing").hide();
+		$(".cook").hide();
 	});
 	
 });
