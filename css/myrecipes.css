@@ -5,23 +5,48 @@ body {
 	background-attachment: fixed;
 }
 
-.name {
+/*.name {
 	display: inline-block;
 	font-size: 40px;
 	margin-top: 30px;
 	margin-left: 30px;
 	color: orange;
 }
+*/
+.firstbox {
+	display: block;
+	margin: 10px auto;
+	width: 1100px;
+	background-color: white;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: center;
+	margin: 20px 30px;
+}
+
+.specialtitle {
+	font-weight: bold;
+	color: black;
+}
+
+.specialtitleorange {
+	color: orange;
+	font-style: italic;
+	font-size: 25px;
+}
 
 .addbutton {
-	margin: 10% auto;
-	display: block;
-	width: 250px;
+	display: inline-block;
+	width: 270px;
 	background-color: orange;
 	color: white;
 	border-radius: 25px;
 	padding: 20px;
-	font-size: 40px;
+	font-size: 35px;
+	margin: 20px 20px;
+	margin-left: 55%;
 }
 
 .addbutton:hover {
@@ -32,10 +57,10 @@ body {
 	display: none;
 	margin: 10px auto;
 	width: 1100px;
-	min-height: 400px;
+	min-height: 100%;
 	background-color: rgba(256,256,256,0.7);
-	clear: both;
 	padding: 10px;
+	padding-bottom: 5px;
 }
 
 .addrecipe {	
@@ -43,10 +68,11 @@ body {
 	min-width: 45%;
 	float: left;
 	padding: 20px;
+	text-align: left;
 }
 
 .text {
-	font-size: 25px;
+	font-size: 22px;
 	padding: 5px;
 }
 
@@ -54,9 +80,19 @@ input[type="text"] {
 	display: inline-block;
 	width: 340px;
 	padding: 10px;
-	margin-top: 10px;
-	margin-left: 30px;
+	margin-left: 15px;
+	margin-bottom: 5px;
 	font-size: 20px;
+}
+
+input[type="submit"] {
+	width: 70px;
+	line-height: 30px;
+	border-radius: 15px;
+	background-color: #ff8000;
+	font-size: 18px;
+	color: white;
+
 }
 
 .rendered {
@@ -72,6 +108,7 @@ input[type="text"] {
 	padding: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
+	margin-left: 5%;
 }
 
 .namerec {
@@ -87,7 +124,8 @@ input[type="text"] {
 }
 
 .donebutton {
-	margin: 5% auto;
+	margin: 0 auto;
+	margin-top: 10px;
 	display: block;
 	width: 120px;
 	background-color: orange;
@@ -100,3 +138,38 @@ input[type="text"] {
 
 .donebutton:hover {
 	background-color: #ff8000;
+}
+
+/*This part is for the recipe gallery*/
+.recipegallery {
+	margin: 0 auto;
+	width: 1100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: white;
+}
+
+.column {
+	margin: 10px;
+	width: 310px;
+	height: 100%;
+	float: left;
+}
+
+.imggallery {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.image {
+	width: 310px;
+}
+.imgtext {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+	padding: 2px 4px;
+}

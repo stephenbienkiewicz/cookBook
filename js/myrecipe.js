@@ -44,4 +44,14 @@ $(document).ready(function(){
 		$(".cook").hide();
 	});
 	
+	/*Clicking on recipe at the gallery, brings out recipe*/
+
+	/*$(".imggallery").click(function(){
+
+		$(".column").hide();
+		$("#showrecipe").show();
+		$("#showrecipe").load("recipes/strawberry_bread.html");*/
+
+	// });
+
 });

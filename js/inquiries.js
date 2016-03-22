@@ -7,12 +7,25 @@ $(document).ready(function(){
 		var phone = $("#phone").val();
 		var message = $("#message").val();
 
-		$(".contactform").reset();
+		if(name === "" || email === "" || phone === "" || message === ""){
+		
+			$(".incomplete").show();
+		
+		} else {
 
-		$(".messagename").add(name).appendTo(".messagename");
+			$(".popup").show();
 
+			$(".messageemail").html("Email: " + email);
+			$(".messagephone").html("Phone number: " + phone);
+			$(".Message").html("Message: " + message);
+			$(".messagename").html("<p>Message sent!</p> Thank you "+ name + "!");
 
+		}
 
+	});
+
+	$(".btn").click(function(){
+		$(".popup").hide();
 	});
 
 });
