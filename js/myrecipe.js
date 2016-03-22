@@ -50,8 +50,8 @@ $(document).ready(function(){
 
 		$(".column").hide();
 		$("#showrecipe").show();
-		$("#showrecipe").load("recipes/strawberry_bread.html");*/
+		$("#showrecipe").load("recipes/strawberry_bread.html");
 
-	});
+	});*/
 
 });

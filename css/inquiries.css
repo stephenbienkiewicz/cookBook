@@ -88,3 +88,9 @@ form {
 	color: red;
 	font-size: 16px;
 }
+
+.close {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
