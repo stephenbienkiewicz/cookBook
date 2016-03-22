@@ -5,34 +5,38 @@ body {
 	background-attachment: relative;
 }
 
-input[type="text"] {
-	display: inline-block;
-	position: absolute;
-	width: 340px;
-	padding: 5px;
-	top: 50%;
-	left: 30%;
+input[type="text"]{
+  display: inline-block;
+  width: 340px;
+  padding: 5.5px;
+  text-align: left;
+  font-size: 0.938em;
+  letter-spacing: 3px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 49%;
+  left: 30%;
 }
 
-input[type="submit"] {
-	display: inline-block;
-	position: absolute;
-	width: 100px;
-	padding: 5px;
-	top: 50%;
-	left: 53%;
+input[type="submit"]{
+  display: inline-block;
+  width: 150px;
+  padding: 5.5px;
+  text-align: center;
+  font-size: 0.938em;
+  letter-spacing: 3px;
+  background-color: white;
+  color: orange;
+  font-style: italic;
+  position: absolute;
+  top: 49%;
+  left: 57%;
 }
 
-.name {
-	font-size: 40px;
-	position: absolute;
-	top: 5%;
-	left: 10%;
-	color: orange;
-}
-
-.logo {
-	position: absolute;
-	left: 40%;
-
+input[type="submit"]:hover{
+  background-color: orange;
+  color: white;
+  font-style: italic;
 }
