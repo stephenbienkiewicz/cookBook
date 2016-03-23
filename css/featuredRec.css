@@ -1,0 +1,39 @@
+body {
+	background-image: url(../images/spices_cut.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.btn-primary {
+	float: left;
+	background-color: orange;
+	transition: .5s ease;
+	display: block;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 250px;
+	color: white;
+	border-radius: 25px;
+	font-size: 35px;
+}
+
+.modal-content {
+	padding: 20px;
+}
+
+.slideshow {
+	display: block;
+	float: left;
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 150px;
+	padding-top: 10px; 
+}
+
+.slide {
+	width: 1100px;
+	margin: 0 auto;
+	background-color: rgba(256,256,256,0.7);
+}
