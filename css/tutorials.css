@@ -5,6 +5,13 @@ body {
 	background-attachment: fixed;
 }
 
+.bigcontainer{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(256,256,256,0.7);
+}
+
 .container {
     margin: 50px;
     padding: 10px;
