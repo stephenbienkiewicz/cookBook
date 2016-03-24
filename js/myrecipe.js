@@ -46,12 +46,26 @@ $(document).ready(function(){
 	
 	/*Clicking on recipe at the gallery, brings out recipe*/
 
-	/*$(".imggallery").click(function(){
+	function showrecipe(elem) {
 
-		$(".column").hide();
-		$("#showrecipe").show();
-		$("#showrecipe").load("recipes/strawberry_bread.html");
+		var suffix = elem.match(/\d+/);
+		var name = ".recipe" + suffix;
 
-	});*/
+		$(name).fadeIn(500);
+		
+	}
+	
+	$(".img1").click(function(){showrecipe(".img1")});
+	$(".img2").click(function(){showrecipe(".img2")});
+	$(".img3").click(function(){showrecipe(".img3")});
+	$(".img4").click(function(){showrecipe(".img4")});
+	$(".img5").click(function(){showrecipe(".img5")});
+	$(".img6").click(function(){showrecipe(".img6")});
+	$(".img7").click(function(){showrecipe(".img7")});
+	$(".img8").click(function(){showrecipe(".img8")});
+	$(".img9").click(function(){showrecipe(".img9")});
 
+	$(".closebutton").click(function(){
+		$(".recipe").hide();
+	});
 });
