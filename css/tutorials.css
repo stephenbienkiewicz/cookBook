@@ -48,3 +48,24 @@ body {
     background-color: orange;
 }
 
+.titleblack {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.titleorange {
+    color: orange;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.bigtitle {
+    font-size: 28px;
+}
+
+.smallimage {
+    padding-bottom: 10px;
+}
