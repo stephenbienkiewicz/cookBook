@@ -13,10 +13,17 @@ body {
 	margin-top: 50px;
 	margin-left: 100px;
 	margin-bottom: 50px;
-	width: 250px;
+	width: 150px;
 	color: white;
 	border-radius: 25px;
-	font-size: 35px;
+	font-size: 25px;
+	border-color: white;
+}
+
+.btn-primary:hover {
+	background-color: white;
+	color: orange;
+	border-color: orange;
 }
 
 .modal-content {
@@ -34,6 +41,7 @@ body {
 
 .slide {
 	width: 1100px;
+	height: 500px;
 	margin: 0 auto;
 	background-color: rgba(256,256,256,0.7);
 }
