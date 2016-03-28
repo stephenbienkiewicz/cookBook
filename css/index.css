@@ -1,84 +1,210 @@
-body {
-	background-image: url(../images/spices_cut.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: relative;
+@media (max-width: 667px){
+  body {
+    background-image: url(../images/spices_phone.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .titleblack {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .titleorange {
+    color: orange;
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  .specialtitle {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  input[type="text"]{
+    display: block;
+    width: 80%;
+    padding: 5.5px;
+    text-align: left;
+    font-size: 0.938em;
+    letter-spacing: 3px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: 0px auto;
+  }
+
+  input[type="submit"]{
+    display: block;
+    width: 40%;
+    padding: 5.5px;
+    text-align: center;
+    font-size: 0.938em;
+    letter-spacing: 3px;
+    background-color: white;
+    color: orange;
+    font-style: italic;
+    margin: 10px auto;
+  }
+
+  input[type="submit"]:hover{
+    background-color: orange;
+    color: white;
+  }
+
+  .content {
+    background-color: rgba(256,256,256,0.7);
+    width: 100%;
+    margin-top: 30%;
+    padding: 10px;
+  }
+
+  .quote {
+    display: none;
+    max-width: 90%; 
+    margin: 2% auto;
+    border: none;
+    text-align: center;
+  }
+
+  #searchform {
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-style: italic;
+    border: 0;
+    position: relative;
+    color: #383838;
+  }
+
+  blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+
+  blockquote:after {
+    display: block;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    color: #7a7a7a;
+  }
 }
 
-input[type="text"]{
-  display: inline-block;
-  width: 340px;
-  padding: 5.5px;
-  text-align: left;
-  font-size: 0.938em;
-  letter-spacing: 3px;
-  background-color: white;
-  color: black;
-  font-weight: bold;
-}
+@media (min-width: 668px){
+  body {
+    background-image: url(../images/spices_cut.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 
-input[type="submit"]{
-  display: inline-block;
-  width: 150px;
-  padding: 5.5px;
-  text-align: center;
-  font-size: 0.938em;
-  letter-spacing: 3px;
-  background-color: white;
-  color: orange;
-  font-style: italic;
-}
+  .titleblack {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
 
-input[type="submit"]:hover{
-  background-color: orange;
-  color: white;
-}
+  .titleorange {
+    color: orange;
+    font-style: italic;
+    font-size: 18px;
+  }
 
-.container {
-  background-color: rgba(256,256,256,0.7);
-  width: 100%;
-  margin-top: 10%;
-}
+  .specialtitle {
+    display: inline-block;
+    font-size: 26px;
+    vertical-align: center;
+  }
 
-.quote {
-  display: none;
-  max-width: 600px; 
-  margin: 2% auto;
-  border: none;
-  text-align: center;
-}
+  input[type="text"]{
+    display: inline-block;
+    width: 340px;
+    padding: 5.5px;
+    text-align: left;
+    font-size: 0.938em;
+    letter-spacing: 3px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
 
-#searchform {
-  display: block;
-  width: 500px;
-  margin: 30px auto;
-}
+  input[type="submit"]{
+    display: inline-block;
+    width: 150px;
+    padding: 5.5px;
+    text-align: center;
+    font-size: 0.938em;
+    letter-spacing: 3px;
+    background-color: white;
+    color: orange;
+    font-style: italic;
+  }
 
-blockquote {
-  font-family: Georgia, serif;
-  font-size: 25px;
-  font-style: italic;
-  border: 0;
-  position: relative;
-  color: #383838;
-}
+  input[type="submit"]:hover{
+    background-color: orange;
+    color: white;
+  }
 
-blockquote:before {
-  display: block;
-  content: "\201C";
-  font-size: 80px;
-  position: absolute;
-  left: -20px;
-  top: -20px;
-  color: #7a7a7a;
-}
+  .content {
+    background-color: rgba(256,256,256,0.7);
+    width: 100%;
+    margin-top: 10%;
+    padding: 10px;
+  }
 
-blockquote:after {
-  display: block;
-  content: "\201D";
-  font-size: 80px;
-  position: absolute;
-  right: -10px;
-  top: -20px;
-  color: #7a7a7a;
+  .quote {
+    display: none;
+    max-width: 600px; 
+    margin: 2% auto;
+    border: none;
+    text-align: center;
+  }
+
+  #searchform {
+    display: block;
+    width: 500px;
+    margin: 30px auto;
+  }
+
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-style: italic;
+    border: 0;
+    position: relative;
+    color: #383838;
+  }
+
+  blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+
+  blockquote:after {
+    display: block;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    color: #7a7a7a;
+  }
 }
