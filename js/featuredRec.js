@@ -10,6 +10,8 @@ $(document).ready(function(){
 	    randomimages[2]="images/arrozconleche.jpg"
 	    randomimages[3]="images/conch.jpg"
 	    randomimages[4]="images/pasta.jpg"
+	    randomimages[5]="images/choccake.jpg"
+
 
 	var preload=new Array()
 
@@ -36,4 +38,6 @@ $(document).ready(function(){
 	setInterval("rotateimage()",delay)
 
 });
+
+	
 

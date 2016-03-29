@@ -10,66 +10,71 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+	
 	<body>
 
-		<nav class="navbar navbar-default navbar-fixed-top">
-  			<div class="container-fluid">
-    			<div class="navbar-header">
-      				<a class="navbar-brand" href="index.html">
-      					<img style="width: 30px;height: 30px;margin-top: -5px; display: inline-block;" alt="Brand" src="images/logo.png">
-      					<span class="titleblack specialtitle"> The</span> <span class="titleorange specialtitle">Online CookBook</span>
-      				</a>
-      				
-      				<a href="index.html"></a>
-
-      				<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse">
-      					<span class="sr-only">Toggle navigation</span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      				</button>
-      		</div>
-
-  				<div class="navbar-collapse collapse">
-	  					<ul class="nav navbar-nav navbar-right">
-	    					
-	  						<li><a href="index.html"><span class="titleblack">Home</span></a></li>
-
-	  						<li><a href="myrecipes.html"><span class="titleblack">My</span> <span class="titleorange">Recipes</span></a></li>
-
-	  						<li><a href="featuredRec.html"><span class="titleblack">Featured</span> <span class="titleorange">Recipes</span></a></li>
-
-	  						<li><a href="tutorials.html"><span class="titleblack">Cool</span> <span class="titleorange">Tutorials</span></a></li>
-
-	    					<li><a href="inquiries.html" class="titleblack"><span class="titleblack">Inquiries</span></a></li>
+		<div id="page">
+			<nav class="navbar navbar-default navbar-fixed-top">
+	  			<div class="container-fluid">
+	    			<div class="navbar-header">
+	      				<a class="navbar-brand" href="index.html">
+	      					<img style="width: 30px;height: 30px;margin-top: -5px; display: inline-block;" alt="Brand" src="images/logo.png">
+	      					<span class="titleblack specialtitle"> The</span> <span class="titleorange specialtitle">Online CookBook</span>
+	      				</a>
 	      				
-	  					</ul>
-  				</div>
-  			</div>
-		</nav>
-		
-		<div class="content">
+	      				<a href="index.html"></a>
 
-			<blockquote class="q1 quote">One of the very nicest things about life is the way we must regularly stop whatever it is we are doing and devote our attention to eating</blockquote>
-			<blockquote class="q2 quote">We all eat, and it would be a sad waste of opportunity to eat badly</blockquote>
-			<blockquote class="q3 quote">One cannot think well, love well, sleep well, if one has not dined well</blockquote>
-			<blockquote class="q4 quote">Life is too short for self-hatred and celery sticks</blockquote>
-			<blockquote class="q5 quote">I am not a glutton. I am an explorer of food</blockquote>
-			<blockquote class="q6 quote">The meal is not over when I'm full. The meal is over when I hate myself</blockquote>
-			<blockquote class="q7 quote">I always cook with wine. Sometimes I even add it to the food</blockquote>
-			<blockquote class="q8 quote">When the waitress asked if I wanted my pizza cut into four or eight slices, I said, 'Four. I don't think I can eat eight.</blockquote>
+	      				<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse">
+	      					<span class="sr-only">Toggle navigation</span>
+	      					<span class="icon-bar"></span>
+	      					<span class="icon-bar"></span>
+	      					<span class="icon-bar"></span>
+	      				</button>
+	      		</div>
+
+	  				<div class="navbar-collapse collapse">
+		  					<ul class="nav navbar-nav navbar-right">
+		    					
+		  						<li><a href="index.html"><span class="titleblack">Home</span></a></li>
+
+		  						<li><a href="myrecipes.html"><span class="titleblack">My</span> <span class="titleorange">Recipes</span></a></li>
+
+		  						<li><a href="featuredRec.html"><span class="titleblack">Featured</span> <span class="titleorange">Recipes</span></a></li>
+
+		  						<li><a href="tutorials.html"><span class="titleblack">Cool</span> <span class="titleorange">Tutorials</span></a></li>
+
+		    					<li><a href="inquiries.html" class="titleblack"><span class="titleblack">Inquiries</span></a></li>
+		      				
+		  					</ul>
+	  				</div>
+	  			</div>
+			</nav>
+			
+			<div class="content">
+
+				<blockquote class="q1 quote">One of the very nicest things about life is the way we must regularly stop whatever it is we are doing and devote our attention to eating</blockquote>
+				<blockquote class="q2 quote">We all eat, and it would be a sad waste of opportunity to eat badly</blockquote>
+				<blockquote class="q3 quote">One cannot think well, love well, sleep well, if one has not dined well</blockquote>
+				<blockquote class="q4 quote">Life is too short for self-hatred and celery sticks</blockquote>
+				<blockquote class="q5 quote">I am not a glutton. I am an explorer of food</blockquote>
+				<blockquote class="q6 quote">The meal is not over when I'm full. The meal is over when I hate myself</blockquote>
+				<blockquote class="q7 quote">I always cook with wine. Sometimes I even add it to the food</blockquote>
+				<blockquote class="q8 quote">When the waitress asked if I wanted my pizza cut into four or eight slices, I said, 'Four. I don't think I can eat eight.</blockquote>
 
 
-			<form id="searchform" action="http://www.foodnetwork.com/search/search-results.html" target="blank" method="get">
-				<input type="text" name="searchTerm" placeholder="explore your inner chef... ">
-				<input type="submit" value="Submit">
-			</form>
-		
+				<form id="searchform" action="http://www.foodnetwork.com/search/search-results.html" target="blank" method="get">
+					<input type="text" name="searchTerm" placeholder="explore your inner chef... ">
+					<input type="submit" value="Submit">
+				</form>
+			
+			</div>
+
 		</div>
+    	<div id="loading"></div>
 
 		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
-	
+		<script src="js/load.js"></script>
 	</body>
 </html>

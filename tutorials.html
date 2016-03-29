@@ -3,42 +3,55 @@
 	<head>
 		<title>Cool Tutorials</title>
 		
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/tutorials.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+	
 	<body>
 
 		<div id="page">
 			<nav class="navbar navbar-default">
-	  			<div class="container-fluid">
-	    			<div class="navbar-header">
-	      				<a class="navbar-brand" href="index.html">
-	      					<img style="width: 30px;height: 30px;margin-top: -5px;" alt="Brand" src="images/logo.png">
-	      				</a>
-	    			</div>
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<a class="navbar-brand" href="index.html">
+      					<img style="width: 30px;height: 30px;margin-top: -5px; display: inline-block;" alt="Brand" src="images/logo.png">
+      					<span class="titleblack specialtitle"> The</span> <span class="titleorange specialtitle">Online CookBook</span>
+      				</a>
+      				
+      				<a href="index.html"></a>
 
-	    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      				<ul class="nav navbar-nav">
-	        				<li><a href="index.html"><span style="color: black;font-weight: bold;font-size:26px;"> The</span> <span style="color: orange;font-style: italic;font-size:26px;">Online CookBook</span></a></li>
-	      				</ul>
+      				<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse">
+      					<span class="sr-only">Toggle navigation</span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      				</button>
+      		</div>
 
-	      				<p class="navbar-text navbar-right"><a href="inquiries.html" class="navbar-link"><span style="color: black;font-weight: bold;font-size:18px;"> Inquiries</span></a></p>
-	      				
-	      				<p class="navbar-text navbar-right"><a href="tutorials.html" class="navbar-link"><span style="color: black;font-weight: bold;font-size:18px;">Cool</span> <span style="color: orange;font-style: italic;font-size:18px;">Tutorials</span></a></p>
-	      				
-	      				<p class="navbar-text navbar-right"><a href="featuredRec.html" class="navbar-link"><span style="color: black;font-weight: bold;font-size:18px;">Featured</span> <span style="color: orange;font-style: italic;font-size:18px;">Recipes</span></a></p>
-	      				
-	      				<p class="navbar-text navbar-right"><a href="myrecipes.html" class="navbar-link"><span style="color: black;font-weight: bold;font-size:18px;">My</span> <span style="color: orange;font-style: italic;font-size:18px;">Recipes</span></a></p>
-	      				
-	      				<p class="navbar-text navbar-right"><a href="index.html" class="navbar-link"><span style="color: black;font-weight: bold;font-size:18px;">Home</span></a></p>
+  				<div class="navbar-collapse collapse">
+	  					<ul class="nav navbar-nav navbar-right">
+	    					
+	  						<li><a href="index.html"><span class="titleblack">Home</span></a></li>
 
-	    			</div>
-	  			</div>
-			</nav>
+	  						<li><a href="myrecipes.html"><span class="titleblack">My</span> <span class="titleorange">Recipes</span></a></li>
+
+	  						<li><a href="featuredRec.html"><span class="titleblack">Featured</span> <span class="titleorange">Recipes</span></a></li>
+
+	  						<li><a href="tutorials.html"><span class="titleblack">Cool</span> <span class="titleorange">Tutorials</span></a></li>
+
+	    					<li><a href="inquiries.html" class="titleblack"><span class="titleblack">Inquiries</span></a></li>
+	      				
+	  					</ul>
+  				</div>
+  			</div>
+		</nav>
 
 			<div class="bigcontainer">
+				
 				<h1><center><span class="titleblack bigtitle">Come</span><span class="titleorange bigtitle"> check out some cool videos</span></center></h1>
 				<div class="container c1">
 			    	<p><span style="background-color:white;"> <span class="titleblack">Learn</span> <span class="titleorange">the cooking basics</span></p>
@@ -70,7 +83,7 @@
 					<iframe width="280" height="200" src="https://www.youtube.com/embed/-IayZa1AH4Q" frameborder="0" allowfullscreen></iframe>
 				</div>
 
-			<h1><center><span class="titleblack bigtitle">Some</span><span class="titleorange bigtitle"> old fashioned books</span></center></h1>
+				<h1><center><span class="titleblack bigtitle">Some</span><span class="titleorange bigtitle"> old fashioned books</span></center></h1>
 				<div class="container c1">
 			    	<p><span style="background-color:white;"> <span class="titleblack">How</span> <span class="titleorange">to cook everything</span></p>
 			    		
@@ -83,60 +96,62 @@
 				</div>
 
 				<div class="container c2">
-			    	<p><span style="background-color:white;"> <span class="titleblack">How</span> <span class="titleorange">to cook everything</span></p>
+			    	<p><span style="background-color:white;"> <span class="titleblack">How</span> <span class="titleorange">to bake</span></p>
 			    		
-			    	<img class="smallimage" src="images/htceb.jpg">
+			    	<img class="smallimage" src="images/bake2.jpg">
 
-			    	<img class="smallimage" src="images/htce.jpg">
+			    	<img class="smallimage" src="images/bake1.jpg">
 
-			    	<img class="smallimage" src="images/htcev.jpg">
+			    	<img class="smallimage" src="images/bake3.jpg">
 				</div>
 
 				<div class="container c3">
-			    	<p><span style="background-color:white;"> <span class="titleblack">How</span> <span class="titleorange">to cook everything</span></p>
+			    	<p><span style="background-color:white;"> <span class="titleblack">How</span> <span class="titleorange">to sushi</span></p>
 			    		
-			    	<img class="smallimage" src="images/htceb.jpg">
+			    	<img class="smallimage" src="images/sushi1.jpg">
 
-			    	<img class="smallimage" src="images/htce.jpg">
+			    	<img class="smallimage" src="images/sushi2.jpg">
 
-			    	<img class="smallimage" src="images/htcev.jpg">
+			    	<img class="smallimage" src="images/sushi3.jpg">
 				</div>
 
-			<h1><center><span class="titleblack bigtitle">Culinary</span><span class="titleorange bigtitle"> classes </span></center></h1>
+				<h1><center><span class="titleblack bigtitle">Culinary</span><span class="titleorange bigtitle"> classes </span></center></h1>
 				<div class="container c1">
 			    	<p><span style="background-color:white;"> <span class="titleblack">In</span> <span class="titleorange">NYC</span></p>
 			    		
-			    	<img class="smallimage" src="images/ice.jpg">
-
 			    	<img class="smallimage" src="images/tastebuds.jpg">
+
+			    	<img class="smallimage" src="images/ice.jpg">
 
 			    	<img class="smallimage" src="images/cookandgo.jpg">
 				</div>
 
 				<div class="container c2">
-			    	<p><span style="background-color:white;"> <span class="titleblack">In</span> <span class="titleorange">NYC</span></p>
+			    	<p><span style="background-color:white;"> <span class="titleblack">In</span> <span class="titleorange">NJ</span></p>
 			    		
-			    	<img class="smallimage" src="images/ice.jpg">
+			    	<img class="smallimage" src="images/nj2.jpg">
 
-			    	<img class="smallimage" src="images/tastebuds.jpg">
+			    	<img class="smallimage" src="images/nj1.jpg">
 
-			    	<img class="smallimage" src="images/cookandgo.jpg">
+			    	<img class="smallimage" src="images/nj3.jpg">
 				</div>
 
 				<div class="container c3">
-			    	<p><span style="background-color:white;"> <span class="titleblack">In</span> <span class="titleorange">NYC</span></p>
+			    	<p><span style="background-color:white;"> <span class="titleblack">In</span> <span class="titleorange">Europe</span></p>
 			    		
-			    	<img class="smallimage" src="images/ice.jpg">
+			    	<img class="smallimage" src="images/euro1.jpg">
 
-			    	<img class="smallimage" src="images/tastebuds.jpg">
+			    	<img class="smallimage" src="images/euro2.jpg">
 
-			    	<img class="smallimage" src="images/cookandgo.jpg">
+			    	<img class="smallimage" src="images/euro3.jpg">
 				</div>
 			</div>
+		
 		</div>
     	<div id="loading"></div>
+		
+		<script src="js/jquery-2.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/load.js"></script>
-		<script src="jquery-2.2.1.min.js"></script>
-		<script src="js/parallax.min.js"></script>
 	</body>
 </html>

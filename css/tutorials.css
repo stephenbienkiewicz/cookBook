@@ -1,89 +1,169 @@
-body {
-	background-image: url(../images/spices_cut.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+@media (max-width: 667px){
+    body {
+    	background-image: url(../images/spices_phone.jpg);
+    	background-size: 100%;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    }
+
+
+    .bigcontainer{
+        background-color: rgba(256,256,256,0.7);
+        width: 100%;
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .container {
+        margin: 50px;
+        padding: 10px;
+        float: left;
+        width: 300px;
+        height: 300px;
+        overflow: auto;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: orange;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,.5);
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255,255,255,.75);
+    }
+
+    /* Individual scrollbars */
+
+    .c1::-webkit-scrollbar-track {
+        background-color: #B13131;
+    }
+    .c2::-webkit-scrollbar-track {
+        background-color: #315AB1;
+    }
+    .c3::-webkit-scrollbar-track {
+        background-color: orange;
+    }
+
+    .titleblack {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .titleorange {
+        color: orange;
+        font-style: italic;
+        font-size: 15px;
+    }
+
+    .specialtitle {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .smallimage {
+        padding-bottom: 10px;
+    }
 }
 
-#page {
-    display: none;
-}
+@media (min-width: 668px) {
+    body {
+        background-image: url(../images/spices_cut.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
-#loading {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(192, 192, 192, 0.5);
-    background-image: url("http://www.steelguru.com/bundles/steelguruapp/images/loading.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    #page {
+        display: none;
+    }
 
-.bigcontainer{
-    width: 1200px;
-    height: 1310px;
-    margin: 0 auto;
-    background-color: rgba(256,256,256,0.7);
-}
+    #loading {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(192, 192, 192, 0.5);
+        background-image: url("http://www.steelguru.com/bundles/steelguruapp/images/loading.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
-.videocontainer {
-    margin: 50px;
-    padding: 10px;
-    float: left;
-    width: 300px;
-    height: 300px;
-    overflow-y: scroll;
-}
-::-webkit-scrollbar {
-    width: 8px;
-}
-::-webkit-scrollbar-track {
-    background: orange;
-    border-radius: 4px;
-    margin: 10px 0;
-}
-::-webkit-scrollbar-thumb {
-    background: rgba(255,255,255,.5);
-    border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(255,255,255,.75);
-}
+    .bigcontainer{
+        width: 1200px;
+        height: 1370px;
+        margin: 0 auto;
+        background-color: rgba(256,256,256,0.7);
+    }
 
-/* Individual scrollbars */
+    .container {
+        margin: 50px;
+        padding: 10px;
+        float: left;
+        width: 300px;
+        height: 300px;
+        overflow: auto;
+    }
 
-.c1::-webkit-scrollbar-track {
-    background-color: #B13131;
-}
-.c2::-webkit-scrollbar-track {
-    background-color: #315AB1;
-}
-.c3::-webkit-scrollbar-track {
-    background-color: orange;
-}
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: orange;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,.5);
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255,255,255,.75);
+    }
 
-.titleblack {
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 10px;
-}
+    /* Individual scrollbars */
 
-.titleorange {
-    color: orange;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 10px;
-}
+    .c1::-webkit-scrollbar-track {
+        background-color: #B13131;
+    }
+    .c2::-webkit-scrollbar-track {
+        background-color: #315AB1;
+    }
+    .c3::-webkit-scrollbar-track {
+        background-color: orange;
+    }
 
-.bigtitle {
-    font-size: 28px;
-}
+    .titleblack {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 10px;
+    }
 
-.smallimage {
-    padding-bottom: 
+    .titleorange {
+        color: orange;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 10px;
+    }
+
+    .specialtitle {
+        display: inline-block;
+        font-size: 26px;
+        vertical-align: center;
+    }
+
+    .smallimage {
+        padding-bottom: 10px;
+    }
 }

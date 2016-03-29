@@ -14,75 +14,80 @@
 	</head>
 	<body>
 
-		<nav class="navbar navbar-default navbar-fixed-top">
-  			<div class="container-fluid">
-    			<div class="navbar-header">
-      				<a class="navbar-brand" href="index.html">
-      					<img style="width: 30px;height: 30px;margin-top: -5px; display: inline-block;" alt="Brand" src="images/logo.png">
-      					<span class="titleblack specialtitle"> The</span> <span class="titleorange specialtitle">Online CookBook</span>
-      				</a>
-      				
-      				<a href="index.html"></a>
-
-      				<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse">
-      					<span class="sr-only">Toggle navigation</span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      					<span class="icon-bar"></span>
-      				</button>
-      		</div>
-
-  				<div class="navbar-collapse collapse">
-	  					<ul class="nav navbar-nav navbar-right">
-	    					
-	  						<li><a href="index.html"><span class="titleblack">Home</span></a></li>
-
-	  						<li><a href="myrecipes.html"><span class="titleblack">My</span> <span class="titleorange">Recipes</span></a></li>
-
-	  						<li><a href="featuredRec.html"><span class="titleblack">Featured</span> <span class="titleorange">Recipes</span></a></li>
-
-	  						<li><a href="tutorials.html"><span class="titleblack">Cool</span> <span class="titleorange">Tutorials</span></a></li>
-
-	    					<li><a href="inquiries.html" class="titleblack"><span class="titleblack">Inquiries</span></a></li>
+	<div id="page">
+			<nav class="navbar navbar-default navbar-fixed-top">
+	  			<div class="container-fluid">
+	    			<div class="navbar-header">
+	      				<a class="navbar-brand" href="index.html">
+	      					<img style="width: 30px;height: 30px;margin-top: -5px; display: inline-block;" alt="Brand" src="images/logo.png">
+	      					<span class="titleblack specialtitle"> The</span> <span class="titleorange specialtitle">Online CookBook</span>
+	      				</a>
 	      				
-	  					</ul>
-  				</div>
-  			</div>
-		</nav>
-		
-		<div class="contact">
+	      				<a href="index.html"></a>
 
-			<p class="formtext">If you have any inquiries about the website, contact us!</p>
+	      				<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse">
+	      					<span class="sr-only">Toggle navigation</span>
+	      					<span class="icon-bar"></span>
+	      					<span class="icon-bar"></span>
+	      					<span class="icon-bar"></span>
+	      				</button>
+	      		</div>
 
-			<div class="alert alert-danger formtext incomplete" role="alert">
-			  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-			  <span class="sr-only">Error:</span>
-			  Complete all fields before submitting the form
-			</div>
+	  				<div class="navbar-collapse collapse">
+		  					<ul class="nav navbar-nav navbar-right">
+		    					
+		  						<li><a href="index.html"><span class="titleblack">Home</span></a></li>
+
+		  						<li><a href="myrecipes.html"><span class="titleblack">My</span> <span class="titleorange">Recipes</span></a></li>
+
+		  						<li><a href="featuredRec.html"><span class="titleblack">Featured</span> <span class="titleorange">Recipes</span></a></li>
+
+		  						<li><a href="tutorials.html"><span class="titleblack">Cool</span> <span class="titleorange">Tutorials</span></a></li>
+
+		    					<li><a href="inquiries.html" class="titleblack"><span class="titleblack">Inquiries</span></a></li>
+		      				
+		  					</ul>
+	  				</div>
+	  			</div>
+			</nav>
 			
-			<form id="contactform">
-				<input class="spacing" id="name" type="text" placeholder="Name">
-				<input class="spacing" id="email" type="text" placeholder="Email">
-				<input class="spacing" id="phone" type="text" placeholder="Phone number">
-				<textarea class="spacing" id="message" rows="9" cols="10" placeholder="Message"></textarea>
-				<input class="spacing" id="submit" type="button" value="Submit"> 
-				<!-- Changing the type of the input to button prevents it the page from refreshing then the button is clicked -->
-			</form>
+			<div class="contact">
+
+				<p class="formtext">If you have any inquiries about the website, contact us!</p>
+
+				<div class="alert alert-danger formtext incomplete" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  Complete all fields before submitting the form
+				</div>
+				
+				<form id="contactform">
+					<input class="spacing" id="name" type="text" placeholder="Name">
+					<input class="spacing" id="email" type="text" placeholder="Email">
+					<input class="spacing" id="phone" type="text" placeholder="Phone number">
+					<textarea class="spacing" id="message" rows="9" cols="10" placeholder="Message"></textarea>
+					<input class="spacing" id="submit" type="button" value="Submit"> 
+					<!-- Changing the type of the input to button prevents it the page from refreshing then the button is clicked -->
+				</form>
+
+			</div>
+
+			<div class="popup">
+				<button type="button" class="btn btn-default close" aria-label="Right Align">
+	  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				</button>
+				<div class="style messageemail"></div>
+				<div class="style messagephone"></div>
+				<div class="style Message"></div>
+				<div class="style messagename"></div>
+			</div>
 
 		</div>
-
-		<div class="popup">
-			<button type="button" class="btn btn-default close" aria-label="Right Align">
-  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-			</button>
-			<div class="style messageemail"></div>
-			<div class="style messagephone"></div>
-			<div class="style Message"></div>
-			<div class="style messagename"></div>
-		</div>
+    	<div id="loading"></div>	
 
 		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/inquiries.js"></script>
+		<script src="js/load.js"></script>
 	</body>
 </html>

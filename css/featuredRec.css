@@ -1,47 +1,177 @@
-body {
-	background-image: url(../images/spices_cut.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+@media (max-width: 667px) {
+	body {
+		background-image: url(../images/spices_phone.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	
+	.addbutton {
+		display: block;
+		width: 45%;
+		background-color: orange;
+		color: white;
+		border-radius: 25px;
+		padding: 5px;
+		font-size: 2em;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.addbutton:hover {
+		background-color: #ff8000;
+	}
+
+	.titleblack {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .titleorange {
+        color: orange;
+        font-style: italic;
+        font-size: 15px;
+    }
+
+    .specialtitle {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+
+	.modal-content {
+		padding: 20px;
+	}
+
+	.slideshow {
+		display: block;
+		margin-top: -70px;
+		width: 300px; 
+		margin: 0 auto;
+	}
+
+	.slide {
+		background-color: rgba(256,256,256,0.7);
+        width: 100%;
+        margin-top: 0;
+        padding: 10px;
+	}
+
+
+	.recing {
+		color: orange;
+		font-style: italic;
+		font-size: 8px;
+	}
+
+	.recdir {
+		color: black;
+		font-size: 8px;
+	}
+
+	.btn-default {
+			float: right;
+		}
 }
 
-.btn-primary {
-	float: left;
-	background-color: orange;
-	transition: .5s ease;
-	display: block;
-	margin-top: 50px;
-	margin-left: 100px;
-	margin-bottom: 50px;
-	width: 150px;
-	color: white;
-	border-radius: 25px;
-	font-size: 25px;
-	border-color: white;
-}
+@media (min-width: 668px) {
+	body {
+		background-image: url(../images/spices_cut.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
 
-.btn-primary:hover {
-	background-color: white;
-	color: orange;
-	border-color: orange;
-}
+	#page {
+	    display: none;
+	}
 
-.modal-content {
-	padding: 20px;
-}
+	#loading {
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index: 100;
+	    width: 100vw;
+	    height: 100vh;
+	    background-color: rgba(192, 192, 192, 0.5);
+	    background-image: url("http://www.steelguru.com/bundles/steelguruapp/images/loading.gif");
+	    background-repeat: no-repeat;
+	    background-position: center;
+	}
 
-.slideshow {
-	display: block;
-	float: left;
-	width: 400px;
-	margin-top: 50px;
-	margin-left: 150px;
-	padding-top: 10px; 
-}
+	.titleblack {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 10px;
+    }
 
-.slide {
-	width: 1100px;
-	height: 500px;
-	margin: 0 auto;
-	background-color: rgba(256,256,256,0.7);
+    .titleorange {
+        color: orange;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 10px;
+    }
+
+    .specialtitle {
+        display: inline-block;
+        font-size: 26px;
+        vertical-align: center;
+    }
+
+	.addbutton {
+		display: block;
+		width: 25%;
+		background-color: orange;
+		color: white;
+		border-radius: 25px;
+		padding: 5px;
+		font-size: 2em;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.addbutton:hover {
+		background-color: #ff8000;
+	}
+
+
+	.modal-content {
+		padding: 20px;
+	}
+
+	.slideshow {
+		display: block;
+		float: left;
+		width: 400px;
+		margin-top: 50px;
+		margin-left: 150px;
+		padding-top: 10px; 
+	}
+
+	.slide {
+		width: 1100px;
+		height: 500px;
+		margin: 0 auto;
+		background-color: rgba(256,256,256,0.7);
+	}
+
+
+	.recing {
+		color: orange;
+		font-style: italic;
+		font-size: 11px;
+	}
+
+	.recdir {
+		color: black;
+		font-size: 11px;
+	}
+
+	.btn-default {
+			float: right;
+		}
 }
