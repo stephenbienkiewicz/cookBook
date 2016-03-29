@@ -1,96 +1,231 @@
-body {
-	background-image: url(../images/spices_cut.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: relative;
-}
+@media (max-width: 667px){
+	body {
+    background-image: url(../images/spices_phone.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 
-.name {
-	display: inline-block;
-	font-size: 40px;
-	margin-top: 30px;
-	margin-left: 30px;
-	color: orange;
-}
+	.titleblack {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
 
-.contact {
-	margin: 100px auto;
-	width: 600px;
-	height: 100%;
-	background-color: rgba(256,256,256,0.7);
-	padding-top: 10px;
-}
+  .titleorange {
+    color: orange;
+    font-style: italic;
+    font-size: 15px;
+  }
 
-input {
-	display: block;
-	width: 340px;
-	padding: 10px;
-}
+  .specialtitle {
+    display: inline-block;
+    font-size: 18px;
+  }
 
-.spacing {
-	margin: 20px auto;
-}
+  .name {
+		display: inline-block;
+		font-size: 40px;
+		margin-top: 30px;
+		margin-left: 30px;
+	}
 
-textarea {
-	display: block;
-	width: 340px;
-	padding: 10px;
-	margin: 20px auto;
-	font: 13.3333px Arial;
-	line-height: 17px;
-}
+	.contact {
+		margin: 20% auto;
+		width: 100%;
+		background-color: rgba(256,256,256,0.7);
+		padding-top: 10px;
+	}
 
-input[type="textarea"] {
-	height: 200px;
-	vertical-align: top;
-}
+	#contactform {
+		max-width: 90%;
+	}
 
-input[type="submit"] {
-	width: 100px;
-}
+	input {
+		display: block;
+		width: 90%;
+		padding: 10px;
+	}
 
-.formtext {
-	margin: 20px auto;
-	font-size: 20px;
-	max-width: 350px;
-}
+	.spacing {
+		margin: 20px auto;
+	}
 
-form {
-	width: 400px;
-	margin: 0 auto;
-}
+	textarea {
+		display: block;
+		width: 90%;
+		padding: 10px;
+		margin: 20px auto;
+		font: 13.3333px Arial;
+		line-height: 17px;
+	}
 
-.popup {
-	display: none;
-	position: fixed;
-	top: 200px;
-	left: 35%;
-	width: 30%;
-	background-color: white;
-	border: 2px solid orange;
-	border-radius: 20px;
-	box-sizing: border-box;
-}
+	input[type="textarea"] {
+		vertical-align: top;
+	}
 
-.style {
-	margin-top: 10px;
-	margin-left: 10px;
-}
+	input[type="submit"] {
+		width: 90%;
+	}
 
-.messagename {
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 10px;
-}
+	.formtext {
+		margin: 20px auto;
+		font-size: 20px;
+		max-width: 90%;
+	}
 
-.incomplete {
-	display: none;
-	color: red;
-	font-size: 16px;
-}
+	form {
+		width: 400px;
+		margin: 0 auto;
+	}
 
-.close {
-	margin-top: 10px;
-	margin-right: 10px;
-}
+	.popup {
+		display: none;
+		position: fixed;
+		top: 30%;
+		left: 10%;
+		width: 80%;
+		background-color: white;
+		border: 2px solid orange;
+		border-radius: 20px;
+		box-sizing: border-box;
+	}
 
+	.style {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.messagename {
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.incomplete {
+		display: none;
+		color: red;
+		font-size: 16px;
+	}
+
+	.close {
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+}	
+
+@media (min-width: 668px){
+	body {
+		background-image: url(../images/spices_cut.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: relative;
+	}
+
+	.titleblack {
+	    color: black;
+	    font-weight: bold;
+	    font-size: 18px;
+	  }
+
+	.titleorange {
+	  color: orange;
+	  font-style: italic;
+	  font-size: 18px;
+	}
+
+	.specialtitle {
+	  display: inline-block;
+	  font-size: 26px;
+	  vertical-align: center;
+	}
+
+	.name {
+		display: inline-block;
+		font-size: 40px;
+		margin-top: 30px;
+		margin-left: 30px;
+	}
+
+	.contact {
+		margin: 100px auto;
+		width: 600px;
+		height: 100%;
+		background-color: rgba(256,256,256,0.7);
+		padding-top: 10px;
+	}
+
+	input {
+		display: block;
+		width: 340px;
+		padding: 10px;
+	}
+
+	.spacing {
+		margin: 20px auto;
+	}
+
+	textarea {
+		display: block;
+		width: 340px;
+		padding: 10px;
+		margin: 20px auto;
+		font: 13.3333px Arial;
+		line-height: 17px;
+	}
+
+	input[type="textarea"] {
+		height: 200px;
+		vertical-align: top;
+	}
+
+	input[type="submit"] {
+		width: 100px;
+	}
+
+	.formtext {
+		margin: 20px auto;
+		font-size: 20px;
+		max-width: 350px;
+	}
+
+	form {
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.popup {
+		display: none;
+		position: fixed;
+		top: 200px;
+		left: 35%;
+		width: 30%;
+		background-color: white;
+		border: 2px solid orange;
+		border-radius: 20px;
+		box-sizing: border-box;
+	}
+
+	.style {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.messagename {
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.incomplete {
+		display: none;
+		color: red;
+		font-size: 16px;
+	}
+
+	.close {
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+}
