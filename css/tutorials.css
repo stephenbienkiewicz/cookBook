@@ -6,19 +6,18 @@
     	background-attachment: fixed;
     }
 
-
     .bigcontainer{
         background-color: rgba(256,256,256,0.7);
-        width: 100%;
+        height: 100%
         margin-top: 0;
         padding: 10px;
     }
 
     .container {
-        margin: 50px;
+        display: block;
+        margin: 10px auto;
         padding: 10px;
-        float: left;
-        width: 300px;
+        width: 80%;
         height: 300px;
         overflow: auto;
     }
@@ -54,13 +53,27 @@
     .titleblack {
         color: black;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 22px;
     }
 
     .titleorange {
         color: orange;
         font-style: italic;
-        font-size: 15px;
+        font-size: 22px;
+    }
+
+    .bigtitleblack {
+        color: black;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 10px;
+    }
+
+    .bigtitleorange {
+        color: orange;
+        font-style: italic;
+        font-size: 32px;
+        line-height: 10px;
     }
 
     .specialtitle {
@@ -94,7 +107,7 @@
         width: 100vw;
         height: 100vh;
         background-color: rgba(192, 192, 192, 0.5);
-        background-image: url("http://www.steelguru.com/bundles/steelguruapp/images/loading.gif");
+        background-image: url("../images/bar.gif");
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -154,6 +167,20 @@
         color: orange;
         font-style: italic;
         font-size: 18px;
+        line-height: 10px;
+    }
+
+    .bigtitleblack {
+        color: black;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 10px;
+    }
+
+    .bigtitleorange {
+        color: orange;
+        font-style: italic;
+        font-size: 28px;
         line-height: 10px;
     }
 
